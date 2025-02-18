@@ -19,7 +19,7 @@ Antônio grava as reuniões e usa as gravações para transcrever as falas com I
 
 * **Gestão, CI/CD, Infra, Algoritmo:** Lucas
 * **Design, QA, Testes:** Victor
-* **Frontend:** Thiago (PR rev), Micael
+* **Frontend:** Micael (PR rev), Thiago
 * **Backend:** Antônio (PR rev), Iasmin, Filipe
 
 Lucas monta a sprint da semana seguinte com base no que for definido na reunião de sexta, e monta tudo no Jira após a reunião. As issues de Iasmin e Filipe serão adicionadas primeiro, pois eles definiram que vão trabalhar no projeto aos fins de semana, enquanto o resto da equipe trabalhará no projeto de segunda a sexta.
