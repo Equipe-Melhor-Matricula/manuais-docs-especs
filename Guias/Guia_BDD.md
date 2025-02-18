@@ -16,8 +16,10 @@ BDD (Behavior-Driven Development) é uma abordagem de desenvolvimento de softwar
 ```plaintext
 Cenário: Tela do carrinho de compras.                       (cenário possível)
   Dado um usuário autenticado,                              (contexto)
+    E 3 pepinos a R$ 5,00 cada no carrinho de compras,      (contexto)
   Quando ele escolhe a opção de efetuar a compra,           (ação)
-  Então o sistema redireciona para a página de pagamento.   (resultado)
+  Então o sistema redireciona para a página de pagamento,   (resultado)
+    E o valor total é de R$ 15,00.                          (resultado)
 ```
 
 3. **Linguagem ubíqua:**
@@ -43,6 +45,11 @@ Cenário: Tela do carrinho de compras.                       (cenário possível
 - **Behat** (PHP)
 - **JBehave** (Java)
 
+**Nosso caso de uso:**
+ - [Cypress](https://www.cypress.io/) + [Cypress Cucumber Preprocessor](https://www.npmjs.com/package/cypress-cucumber-preprocessor)
+ - Escrevendo os casos BDD em linguagem natural português br e usando essas duas ferramentas, poderemos automatizar os testes de validação na interface.
+
+
 A principal diferença entre BDD e TDD (Test-Driven Development) é que no BDD o foco está no comportamento do sistema, enquanto no TDD o foco está nos testes do código. Além disso, o BDD usa uma linguagem natural para descrever o comportamento do sistema, enquanto o TDD é mais técnico e focado em testes de mais baixo nível. 
 
 Referências:
@@ -51,3 +58,4 @@ https://medium.com/revista-tspi/gherkin-o-dia-em-que-entendi-que-estava-escreven
 
 https://renatogroffe.medium.com/asp-net-core-specflow-implementando-testes-a-partir-de-uma-user-story-8a60f6335d70
 
+https://docbehat.readthedocs.io/pt/v3.1/guides/1.gherkin.html
