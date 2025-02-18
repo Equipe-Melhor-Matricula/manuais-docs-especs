@@ -14,10 +14,10 @@ BDD (Behavior-Driven Development) é uma abordagem de desenvolvimento de softwar
 
    Exemplo de uma história de usuário escrita em BDD:
 ```plaintext
-Cenário: Tela do carrinho de compras.                          (onde/quando)
-Dado um usuário autenticado,                                   (dados/contexto)
-Quando ele escolhe a opção de efetuar a compra,                (ação)
-Então o sistema redireciona para a página de pagamento.        (resultado)
+Cenário: Tela do carrinho de compras.                       (cenário possível)
+  Dado um usuário autenticado,                              (contexto)
+  Quando ele escolhe a opção de efetuar a compra,           (ação)
+  Então o sistema redireciona para a página de pagamento.   (resultado)
 ```
 
 3. **Linguagem ubíqua:**
