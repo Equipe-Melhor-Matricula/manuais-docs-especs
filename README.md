@@ -10,6 +10,7 @@
 
 - [Documentos e Especificações](Docs_e_Especs/Especificações_e_Documentos)
     Definição formal do problema, documentação e especificações sobre o projeto, planilhas e atas de reuniões, etc.
+* [Projeto de Treino: Mural de Avisos](Projeto_Mural/Especificações.md)
 
 ### Repositórios
 
