@@ -110,4 +110,4 @@ Cenário: Página do mural
 - Criar Aviso
 - Editar Aviso
 
-![[fluxo-de-telas.jpg]]
+![Fluxo de Telas](fluxo-de-telas.jpg)
