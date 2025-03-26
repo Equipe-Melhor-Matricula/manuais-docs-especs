@@ -5,6 +5,7 @@
 - [BDD: Desenvolvimento Dirigido por Comportamento](Guias/Guia_BDD.md)
 - [Como Abrir Pull Request no Github](Guias/Guia_Abrir_PR.md)
 - [Como Revisar Pull Request no Github](Guias/Guia_Revisar_PR.md)
+- [Presentation Zen](Guias/Guia_Presentation_Zen.md)
 
 ### Docs e Especs
 
