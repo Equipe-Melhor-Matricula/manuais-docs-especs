@@ -5,12 +5,12 @@
 - [BDD: Desenvolvimento Dirigido por Comportamento](Guias/Guia_BDD.md)
 - [Como Abrir Pull Request no Github](Guias/Guia_Abrir_PR.md)
 - [Como Revisar Pull Request no Github](Guias/Guia_Revisar_PR.md)
+- [Presentation Zen](Guias/Guia_Presentation_Zen.md)
 
 ### Docs e Especs
 
-- [Documentos e Especificações](Docs_e_Especs/Especificações_e_Documentos)
+- [Documentos e Especificações](Docs_e_Especs/Documentos_Especificações.md)
     Definição formal do problema, documentação e especificações sobre o projeto, planilhas e atas de reuniões, etc.
-* [Projeto de Treino: Mural de Avisos](Projeto_Treino/Especificações_Treino.md)
 
 ### Repositórios
 
