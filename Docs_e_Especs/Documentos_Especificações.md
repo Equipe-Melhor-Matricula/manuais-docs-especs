@@ -2,7 +2,7 @@
 
 - [Melhor Matrícula: Definição Formal do Problema](Definição_Formal_do_Problema.md)
 
-- [Doc Modelo fornecido pelos professores](PDS_Produto_Grupo_1.md)
+- [Doc Modelo fornecido pelos professores](Guia_do_Produto.md)
 
 ## Reuniões
 
