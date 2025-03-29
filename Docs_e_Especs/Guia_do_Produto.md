@@ -1,40 +1,41 @@
 # Projeto
 
-Para a Secretaria Municipal da Eduçação, o processo de efetuar e distribuir as matrículas dos estudantes do ensino médio e fundamental é um trabalho longo, complexo e atualmente feito de forma completamente manual pelos funcionários da secretaria, com muitos estudantes sendo matriculados em escolas longe de suas casas, longe dos trabalhos dos pais, quando tém alguma necessidade especial os secretarios de escola devem ser encontrada manualmente em uma lista impressa de escolas com atendimento especial, sem informação no sistema sobre rotas de transporte público, apenas mostrando quais alunos desejam/tem transporte, sem mostrar a rota que é necessária para quais alunos em determinadas escolas, ou outras informações de tomada de decisão para a alocação dos estudantes, assim como não sabem quais escolas precisam de auxiliar de salas para atendimento especial para alunos com deficiências.
+Para a Secretaria Municipal da Eduçação, o processo de efetuar e distribuir as matrículas dos estudantes do ensino médio e fundamental é um trabalho longo, complexo e atualmente feito de forma completamente manual pelos funcionários da secretaria.
 
-O "Melhor Matrícula" é um sistema com interface web para uso pelos cuidadores dos estudantes e pela própria secretaria para melhorar o processo de matrícula e alocação dos estudantes pelas escolas do município.
+O "Melhor Matrícula" é um sistema online para pré-matrículas, para o uso dos responsáveis pelos estudantes e da Semed, para melhorar o processo de matrícula e alocação dos estudantes pelas escolas.
 
-O que difere o "Melhor Matrícula" da solução atualmente em uso, é que quando o MM recebe os dados dos estudantes e dos cuidadores, o MM vai alocar os estudantes da melhor forma possível com base nas preferências fornecidas na hora da solicitação de matrícula, usando um algoritmo heurístico de otimização, levando em conta as informações geográficas, de transporte público, necessidades especializadas dos estudantes e a preferência dos cuidadores sobre a escola ser próxima da casa ou do trabalho, assim como horários de preferência. Dessa forma grande parte do trabalho será automatizado de forma inteligente, agilizando o processo de matrícula dos estudantes e melhorando a distribuição deles pelas escolas do município.
+O que difere o "Melhor Matrícula" da solução atualmente em uso, é que quando o MM recebe os dados dos estudantes e dos cuidadores, o MM vai alocar os estudantes da melhor forma possível com base nas informações sobre o estudante, usando um algoritmo de otimização.
+
+Dessa forma, grande parte do trabalho será automatizado de forma inteligente, agilizando o processo de matrícula dos estudantes e melhorando a distribuição deles pelas escolas do município.
 
 ### Problemas
 
-1) Matrículas Desbalanceadas
-2) Matrículas Migratórias
-3) Matriculas de Risco
+1) Alocações Desbalanceadas
+2) Alocações Migratórias
+3) Alocações de Risco
 
 ### Expectativas
 
-1) Uma interface clara, fácil de usar e com suporte para usuários PCD.
-2) Opção de solicitação de matrícula com preferências, 1ª opção e 2ª opção de escola.
-3) Distribuição automática dos estudantes pelas escolas de forma otimizada.
+1) Uma interface clara e fácil de usar, para computadores pessoais ou celulares.
+2) Fluxo de pré-matrícula fácil de percorrer.
+3) Transparência: Emissão de relatórios e/ou informativos explicando o resultado das alocações.
+4) Alocação automática dos estudantes pelas escolas de forma otimizada.
 
 ## Personas
 
-Uma persona representa um usuário do produto e essa descrição deve falar não só o papel, mas também suas necessidades e seus objetivos. Isso cria uma representação realista dos usuários, auxiliando a equipe a descrever funcionalidades a partir do ponto de vista de quem vai usar o produto (Aguiar, 2021).
-
-### Funcionário da Secretaria
+### Persona 1
 
 *O que ela faz?* : Alimenta o sistema com informações novas sobre escolas. Faz matrícula/solicitação para cuidadores que não estão aptos a usarem a interface web do sistema para solicitarem matrícula sozinhos.
 
 *O que ela espera?* : Ter menos trabalho com o processo de matrícula e alocação dos estudantes.
 
-### Cuidador Apto com Computadores e Internet
+### Persona 2
 
 *O que ela faz?* : Usa a interface web (site) do "Melhor Matrícula" para fazer a solicitação de matrícula dos seus dependentes.
 
 *O que ela espera?* : Que o sistema seja intuitivo, permita solicitar matrícula para escolas específicas, perto de casa ou do trabalho, e receber alguma forma de notificação quando o resultado do processamento estiver disponível.
 
-### Cuidador Não Apto com Computadores ou Internet
+### Persona 3
 
 *O que ela faz?* : Vai à secretaria solicitar a matrícula de seus dependentes.
 
@@ -42,48 +43,38 @@ Uma persona representa um usuário do produto e essa descrição deve falar não
 
 ## Marcos
 
-Devemos entregar **pequenas versões frequentes**. A equipe deve definir os marcos do projeto (*milestones)*, definindo os prazos de entrega e quais funcionalidades serão implementados até o final de cada marco. No final de cada marco devemos distribuir uma nova versão do produto, pronta para produção.
+### Lembretes
+
+Devemos entregar **pequenas versões frequentes**. A equipe deve definir os marcos do projeto (*milestones*), definindo os prazos de entrega e quais funcionalidades serão implementados até o final de cada marco. No final de cada marco devemos distribuir uma nova versão do produto, pronta para produção.
 
 Podemos pensar nessas pequenas versões como MVPs (do inglês, *minimum viable product*). MVP é a versão mais simples de um produto que pode ser disponibilizada para a validação de um pequeno conjunto de hipóteses sobre o negócio. Após ser **construído,** o MVP é colocado à prova. Com isso, teremos dados que possibilitam **medir** o seu uso e, portanto, gerar o **aprendizado** desejado (Caroli, 2018).
 
-### Marco 1 - 20/12/2022
+### Estudo do Problema - 27/02/2025
 
-Acreditamos que esse `Marco 1` vai conseguir `resultado esperado`. Saberemos que isso aconteceu com base em `métricas para validar a hipótese do negócio`.
+Acreditamos que o estudo aprofundado do problema irá munir a equipe do conhecimento e entendimento necessário para planejar uma boa solução, que ataque o problema de forma efetiva. Isso pode ser medido pela documentação produzida ao final desse macro, contando com a elaboração detalhada de personas, suas histórias e refinamentos na proposta de solução que reflitam a especificidade do problema e das personas.
 
 #### Funcionalidades
 
-- [x] Funcionalidade 1.
-- [x] Funcionalidade 2.
-- [x] Funcionalidade 3.
+- [x] Definição do problema refinada
+- [x] Personas refinadas
+- [x] Histórias de usuário refinadas
+- [x] Solução proposta refinada
 
-[Release Notes ](release_notes_1.md)
-
-### Marco 2 - 20/01/2023
+### Planejamento da Solução - 21/03/2025
 
 Acreditamos que esse `Marco 1` vai conseguir `resultado esperado`. Saberemos que isso aconteceu com base em `métricas para validar a hipótese do negócio`.
 
-#### Funcionalidades 
+O planejamento da solução vai prover um mapa sólido sobre como construir a solução ajustada ao problema. Ao final desse marco teremos uma apresentação clara e objetiva da solução, bem como um fluxo enxuto de telas demonstrando como o MVP da solução será quando construído.
 
-- [x] Funcionalidade 1.
-- [x] Funcionalidade 2.
-- [ ] Funcionalidade 3.
+#### Funcionalidades
 
-[Release Notes ](release_notes_1.md)
+- [x] Fluxo de telas no Figma
+- [x] Vídeo de apresentação das telas no Figma
+- [x] Apresentação do projeto como um todo
 
 ## Riscos
 
-1. **Risco 1** descrição do risco. *Severidade Baixa e Probabilidade Alta*.
-
-   Ações para mitigação do risco:
-
-   * Ação de mitigação 1.1.
-
-2. **Risco 2** descrição do risco. *Severidade Média e Probabilidade Alta*.
-
-   Ações para mitigação do risco:
-
-   * Ação de mitigação 2.1.
-   * Ação de mitigação 2.2.
+Não foram identificados riscos para os marcos _Estudo do Problema_ e _Planejamento da Solução_
 
 ## Componentes
 
@@ -91,39 +82,39 @@ Acreditamos que esse `Marco 1` vai conseguir `resultado esperado`. Saberemos que
 
 Website contendo a interface gráfica para interação humana com sistema.
 
-https://github.com/edgebr/templates-artefatos
+[https://github.com/Equipe-Melhor-Matricula/Frontend](https://github.com/Equipe-Melhor-Matricula/Frontend)
 
 ### Backend
 
 API REST servindo o sistema.
 
-https://github.com/edgebr/templates-artefatos
+[https://github.com/Equipe-Melhor-Matricula/Backend](https://github.com/Equipe-Melhor-Matricula/Backend)
 
 
 ### Algoritmo
 
 Algoritmo heurístico de otimização que calcula a alocação dos estudantes para as escolas.
 
+[https://github.com/Equipe-Melhor-Matricula/Otimizador](https://github.com/Equipe-Melhor-Matricula/Otimizador)
 
 ## Stakeholders
 
-Stakeholder 1 <br />
-*Key User - Cargo na Empresa X* <br />
-*E-mail* <br />
+Elisabete
+_Funcionária da Secretaria_  
+_E-mail: TODO_
 (xx) xxxxx-xxxx
 
-Stakeholder 2 <br />
-*Key User - Cargo na Empresa X* <br />
-*E-mail* <br />
+Carinha que usa o Sislame
+_Autônomo_  
+_E-mail: TODO_
 (xx) xxxxx-xxxx
 
 ## Equipe
 
 **Lucas Carvalho**  
 Infra, DevOps, CI/CD, Algoritmo de Otimização, Coordenador da Equipe  
-E-mail:  
+E-mail:  lcf@ic.ufal.br
 https://github.com/kallyous
-
 
 **Antônio**  
 Desenvolvedor Backend  
@@ -140,24 +131,17 @@ Desenvolvedora Backend
 E-mail:  icb2@ic.ufal.br
 https://github.com/IasminBorba
 
-
 **Thiago**  
 Desenvolvedor Frontend  
 E-mail: trs@ic.ufal.br
 https://github.com/ThiagoORuby
-
 
 **Mickael**  
 Desenvolvedor Frontend  
 E-mail: 
 https://github.com/mick3211  
 
-
 **Victor**
 Analista de Qualidade, Design
 E-mail:
 https://github.com/???
-
-## Status Reports
-
-[Status Report 1 (20/12/2022)](status_report_1.md)
