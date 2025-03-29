@@ -1,9 +1,10 @@
 ### Links Importantes
 
 - [Guia do Produto](Docs_e_Especs/Guia_do_Produto.md)
-- [Organização](Organizacao.md)
-- [Jira do Projeto Melhor Matrícula](https://melhormatricula.atlassian.net/jira/software/projects/MM/boards/1/timeline)
+- [Jira do Projeto](https://melhormatricula.atlassian.net/jira/software/projects/MM/boards/1/timeline)
+- [Figma dos Fluxos](https://www.figma.com/design/bCR5ORM1DpJ0wMOpMye99x/Telas?node-id=0-1&t=4HncMTk98sHpyP49-1)
 - [Google Drive da Equipe](https://drive.google.com/drive/folders/1SheVcli1gWLMxCBHIedX6ASs3x-gNztp?usp=sharing)
+- [Organização Interna](Organizacao.md)
 
 # 1. Introdução
 
