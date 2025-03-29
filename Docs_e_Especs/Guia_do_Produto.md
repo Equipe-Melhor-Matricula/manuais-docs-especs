@@ -99,15 +99,17 @@ Algoritmo heurístico de otimização que calcula a alocação dos estudantes pa
 
 ## Stakeholders
 
+```
 Elisabete
-_Funcionária da Secretaria_  
-_E-mail: TODO_
+Funcionária da Secretaria
+E-mail: TODO
 (xx) xxxxx-xxxx
 
-Carinha que usa o Sislame
-_Autônomo_  
-_E-mail: TODO_
+Carinha que usa o Sislame  
+Autônomo
+E-mail: TODO
 (xx) xxxxx-xxxx
+```
 
 ## Equipe
 
