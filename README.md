@@ -173,40 +173,40 @@ Algoritmo heurístico de otimização que calcula a alocação dos estudantes pa
 
 # 8. Equipe
 
-**Lucas Carvalho**  
+Lucas  
 Infra, DevOps, CI/CD, Algoritmo de Otimização, Coordenador da Equipe  
 E-mail: [lcf@ic.ufal.br](mailto:lcf@ic.ufal.br)  
-[https://github.com/kallyous](https://github.com/kallyous)
+[https://github.com/kallyous](https://github.com/kallyous)  
 
-**Antônio**  
+Antônio  
 Desenvolvedor Backend  
-E-mail:  
-[https://github.com/](https://github.com/)???
+E-mail: [aeso@ic.ufal.br](mailto:aeso@ic.ufal.br)  
+[https://github.com/AntoniEduardoSO](https://github.com/AntoniEduardoSO)  
 
-**Filipe**  
+Filipe  
 Desenvolvedor Backend  
-E-mail:  
-[https://github.com/](https://github.com/)???
+E-mail: [mrf@ic.ufal.br](mailto:mrf@ic.ufal.br)  
+[https://github.com/Filipemrr](https://github.com/Filipemrr)  
 
-**Iasmin Borba**  
+Iasmin Borba  
 Desenvolvedora Backend  
 E-mail: [icb2@ic.ufal.br](mailto:icb2@ic.ufal.br)  
-[https://github.com/IasminBorba](https://github.com/IasminBorba)
+[https://github.com/IasminBorba](https://github.com/IasminBorba)  
 
-**Thiago**  
+Thiago  
 Desenvolvedor Frontend  
 E-mail: [trs@ic.ufal.br](mailto:trs@ic.ufal.br)  
-[https://github.com/ThiagoORuby](https://github.com/ThiagoORuby)
+[https://github.com/ThiagoORuby](https://github.com/ThiagoORuby)  
 
-**Mickael**  
+Mickael  
 Desenvolvedor Frontend  
-E-mail:  
-[https://github.com/mick3211](https://github.com/mick3211)
+E-mail: [jvgs@ic.ufal.br](mailto:jvgs@ic.ufal.br)  
+[https://github.com/mick3211](https://github.com/mick3211)  
 
-**Victor**  
+Victor  
 Analista de Qualidade, Design  
-E-mail:  
-[https://github.com/](https://github.com/)???
+E-mail: [jvdso@ic.ufal.br](mailto:jvdso@ic.ufal.br)  
+[https://github.com/josevict0r](https://github.com/josevict0r)  
 
 # 9. Stakeholders
 
