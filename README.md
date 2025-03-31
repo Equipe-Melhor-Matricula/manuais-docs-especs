@@ -124,7 +124,7 @@ Dessa forma, grande parte do trabalho será automatizado de forma inteligente, a
 
 # 6. Macros
 
-## Estudo do Problema - 27/02/2025
+## Macro 1: Estudo do Problema - 27/02/2025
 
 Acreditamos que o estudo aprofundado do problema irá munir a equipe do conhecimento e entendimento necessário para planejar uma boa solução, que ataque o problema de forma efetiva. Isso pode ser medido pela documentação produzida ao final desse macro, contando com a elaboração detalhada de personas, suas histórias e refinamentos na proposta de solução que reflitam a especificidade do problema e das personas.
 
@@ -135,7 +135,7 @@ Acreditamos que o estudo aprofundado do problema irá munir a equipe do conhecim
 - [x] Histórias de usuário refinadas
 - [x] Solução proposta refinada
 
-## Planejamento da Solução - 21/03/2025
+## Macro 2: Planejamento da Solução - 21/03/2025
 
 O planejamento da solução vai prover um mapa sólido sobre como construir a solução ajustada ao problema. Ao final desse marco teremos uma apresentação clara e objetiva da solução, bem como um fluxo enxuto de telas demonstrando como o MVP da solução será quando construído.
 
@@ -145,11 +145,57 @@ O planejamento da solução vai prover um mapa sólido sobre como construir a so
 - [x] Vídeo de apresentação das telas no Figma
 - [x] Apresentação do projeto como um todo
 
-## Riscos
+## Marco 3: Autenticação e cadastro
 
-Não foram identificados riscos para os marcos _Estudo do Problema_ e _Planejamento da Solução_ .
+O sistema de autenticação e cadastro vai possibilitar que usuários, responsáveis ou secretários, consigam acessar o sistema de forma segura.
 
-Os próximos Marcos serão levantados com o resultado da AB1.
+Funcionalidade 1. Autenticação
+
+- História 1.1: Como responsável, quero fazer login com email e senha para acessar minha conta
+- História 1.2: Como secretário, quero fazer login com as credenciais da secretaria para acessar o sistema
+- História 1.3: Como usuário, quero poder recuperar minha senha via email
+
+#### Funcionalidade 2. Cadastro de responsável
+
+- História 2.1: Como responsável, quero criar minhas credenciais para login, fornecendo dados básicos sobre mim
+- História 2.2: Como responsável, quero poder já associar um dependente durante o meu cadastro
+  
+## Marco 4: Gerenciamento de dependentes, pré-matrícula e perfil
+
+O gerenciamento vai permitir que responsáveis possam administrar seus dependentes e solicitar suas pré-matrículas. 
+
+#### Funcionalidade 1. Cadastro/Edição de dependentes
+
+- História 1.1: Como responsável, quero poder adicionar um novo dependente, fornecendo dados básicos sobre ele
+- História 1.2: Como responsável, quero editar ou remover um dependente cadastrado
+
+#### Funcionalidade 2. Gerenciamento de perfil
+
+- História 2.1: Como responsável, quero poder atualizar meus dados de cadastro
+
+#### Funcionalidade 3. Solicitação de pré-matrícula
+
+- História 3.1: Como responsável, quero, para um dependente, realizar a solicitação de matrícula para o ano letivo corrente
+- História 3.2: Como responsável, quero realizar a pré-matrícula em etapas, de forma clara e objetiva
+- História 3.3: Como responsável, quero poder escolher as opções de escola na pré-matrícula conhecendo as escolas disponíveis, de acordo com as informações fornecidas nas etapas anteriores
+
+## Marco 5: Administração e consultas por secretários
+
+A administração e consultas vai possibilitar que secretários realizem a pré-matrícula para responsáveis impossibilitados de fazê-la de forma online, bem como busquem, de forma mais detalhadas, dados cadastrados no sistema
+
+#### Funcionalidade 1. Cadastro manual
+
+- História 1.1: Como secretário, quero cadastrar um responsável/dependente manualmente para casos de baixo letramento digital.
+
+#### Funcionalidade 2. Solicitação de pré-matrícula
+
+- História 2.1: Como responsável, quero poder ir até uma secretaria de educação para realizar a pré-matrícula do(s) meu(s) dependentes
+- História 2.2: Como secretário, quero realizar pré-matrícula para um dependente específico
+
+#### Funcionalidade 3. Realização de consultas
+
+História 3.1: Como secretário, quero realizar consultas nos dados de alunos, responsáveis e matrículas, podendo aplicar filtros a eles**
+
 
 # 7. Componentes
 
