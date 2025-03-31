@@ -38,15 +38,17 @@ Todos esses problemas levam a gargalos burocráticos e humanos no processo de ma
 
 # 3. Personas e suas Histórias
 
-Cada persona traz sua história junto em sua página.
+### 3.1 [Sra Viviane](Recursos_Ferramentas/Personas/Persona_Sra_Viviane.pdf)
 
-### 3.1 Dona Maria
+### 3.2 [Sra Daniela](Recursos_Ferramentas/Personas/Persona_Sra_Daniela.pdf)
 
-### 3.2 Sra Daniele
+### 3.3 [Sr Fábio](Recursos_Ferramentas/Personas/Persona_Sr_Fabio.pdf)
 
-### 3.3 Sr Fábio
+### 3.4 [Srta Amanda](Recursos_Ferramentas/Personas/Persona_Srta_Amanda.pdf)
 
-### 3.4 Sra Amanda
+### 3.5 [Dona Maria](Recursos_Ferramentas/Personas/Persona_Dona_Maria.pdf)
+
+### 3.6 [Secretário Manoel](Recursos_Ferramentas/Personas/Persona_Secretario_Manoel.pdf)
 
 # 4. Solução Proposta
 
