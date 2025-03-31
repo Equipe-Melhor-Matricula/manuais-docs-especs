@@ -137,8 +137,6 @@ Acreditamos que o estudo aprofundado do problema irá munir a equipe do conhecim
 
 ## Planejamento da Solução - 21/03/2025
 
-Acreditamos que esse `Marco 1` vai conseguir `resultado esperado`. Saberemos que isso aconteceu com base em `métricas para validar a hipótese do negócio`.
-
 O planejamento da solução vai prover um mapa sólido sobre como construir a solução ajustada ao problema. Ao final desse marco teremos uma apresentação clara e objetiva da solução, bem como um fluxo enxuto de telas demonstrando como o MVP da solução será quando construído.
 
 ### Funcionalidades
