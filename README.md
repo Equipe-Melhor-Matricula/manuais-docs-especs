@@ -123,77 +123,140 @@ Dessa forma, grande parte do trabalho será automatizado de forma inteligente, a
 
 # 6. Macros
 
-## Macro 1: Estudo do Problema - 27/02/2025
+### **Marco 1: Estudo do Problema**
+
+23/02/2025 \- 15/03/2025 (3 semana)
 
 Acreditamos que o estudo aprofundado do problema irá munir a equipe do conhecimento e entendimento necessário para planejar uma boa solução, que ataque o problema de forma efetiva. Isso pode ser medido pela documentação produzida ao final desse macro, contando com a elaboração detalhada de personas, suas histórias e refinamentos na proposta de solução que reflitam a especificidade do problema e das personas.
 
-### Funcionalidades
+#### **Funcionalidades**
 
-- [x] Definição do problema refinada
-- [x] Personas refinadas
-- [x] Histórias de usuário refinadas
+- [x] Definição do problema refinada  
+- [x] Personas refinadas  
+- [x] Histórias de usuário refinadas  
 - [x] Solução proposta refinada
 
-## Macro 2: Planejamento da Solução - 21/03/2025
+### **Marco 2: Planejamento da Solução**
+
+16/03/2025 \- 28/03/2025 (2 semana)
 
 O planejamento da solução vai prover um mapa sólido sobre como construir a solução ajustada ao problema. Ao final desse marco teremos uma apresentação clara e objetiva da solução, bem como um fluxo enxuto de telas demonstrando como o MVP da solução será quando construído.
 
-### Funcionalidades
+#### **Funcionalidades**
 
-- [x] Fluxo de telas no Figma
-- [x] Vídeo de apresentação das telas no Figma
+- [x] Fluxo de telas no Figma  
+- [x] Vídeo de apresentação das telas no Figma  
 - [x] Apresentação do projeto como um todo
 
-## Marco 3: Autenticação e cadastro
+### **Marco 3: Planejamento da Aplicação**
+
+06/04/2025 \- 19/04/2025 (2 semana)
+
+O planejamento da aplicação vai consolidar a base técnica e operacional para a construção do MVP, garantindo que todos os componentes estejam alinhados com as necessidades do problema. Ao final desse marco, teremos um protótipo de telas funcional no Figma, representando o fluxo completo do usuário; bem como uma arquitetura de rotas e dados definida, especificando como a aplicação será estruturada (frontend, backend e integração com o algoritmo).
+
+#### **Funcionalidades**
+
+- [x] Ajustes finais no fluxo de telas no Figma  
+- [x] Finalização da estruturação dos marcos  
+- [x] Definição das rotas da aplicação  
+- [x] Organização dos dados de teste do algoritmo
+
+### **Marco 4: Autenticação e cadastro**
+
+13/04/2025 \- 19/04/2025 (1 semana)
 
 O sistema de autenticação e cadastro vai possibilitar que usuários, responsáveis ou secretários, consigam acessar o sistema de forma segura.
 
-Funcionalidade 1. Autenticação
+**Funcionalidade 1\. Autenticação**
 
-- História 1.1: Como responsável, quero fazer login com email e senha para acessar minha conta
-- História 1.2: Como secretário, quero fazer login com as credenciais da secretaria para acessar o sistema
-- História 1.3: Como usuário, quero poder recuperar minha senha via email
+- **História 1.1:** Como responsável, quero fazer login com email/cpf e senha para acessar minha conta  
+- **História 1.2:** Como secretário, quero fazer login com as credenciais da secretaria para acessar o sistema  
+- **História 1.3:** Como usuário, quero poder recuperar minha senha via email
 
-#### Funcionalidade 2. Cadastro de responsável
+#### **Funcionalidade 2\. Cadastro de responsável**
 
-- História 2.1: Como responsável, quero criar minhas credenciais para login, fornecendo dados básicos sobre mim
-- História 2.2: Como responsável, quero poder já associar um dependente durante o meu cadastro
-  
-## Marco 4: Gerenciamento de dependentes, pré-matrícula e perfil
+- **História 2.1:** Como responsável, quero criar minhas credenciais para login, fornecendo dados básicos sobre mim  
+- **História 2.2:** Como responsável, quero poder já associar um dependente durante o meu cadastro
 
-O gerenciamento vai permitir que responsáveis possam administrar seus dependentes e solicitar suas pré-matrículas. 
+### **Marco 5: Gerenciamento de dependentes, pré-matrícula e perfil**
 
-#### Funcionalidade 1. Cadastro/Edição de dependentes
+20/04/2025 \- 03/05/2025 (2 semanas)
 
-- História 1.1: Como responsável, quero poder adicionar um novo dependente, fornecendo dados básicos sobre ele
-- História 1.2: Como responsável, quero editar ou remover um dependente cadastrado
+O gerenciamento vai permitir que responsáveis possam administrar seus dependentes e solicitar suas pré-matrículas. 
 
-#### Funcionalidade 2. Gerenciamento de perfil
+#### **Funcionalidade 1\. Gerenciamento de dependentes**
 
-- História 2.1: Como responsável, quero poder atualizar meus dados de cadastro
+- **História 1.1:** Como responsável, quero poder adicionar um novo dependente, fornecendo dados básicos sobre ele  
+- **História 1.2:** Como responsável, quero editar ou remover um dependente cadastrado  
+- **História 1.3:** Como responsável, quero poder acessar o resultado ou informação de erro de processamento da pré-matrícula de um dependente 
 
-#### Funcionalidade 3. Solicitação de pré-matrícula
+#### **Funcionalidade 2\. Gerenciamento de perfil**
 
-- História 3.1: Como responsável, quero, para um dependente, realizar a solicitação de matrícula para o ano letivo corrente
-- História 3.2: Como responsável, quero realizar a pré-matrícula em etapas, de forma clara e objetiva
-- História 3.3: Como responsável, quero poder escolher as opções de escola na pré-matrícula conhecendo as escolas disponíveis, de acordo com as informações fornecidas nas etapas anteriores
+- **História 2.1:** Como responsável, quero poder atualizar meus dados de cadastro
 
-## Marco 5: Administração e consultas por secretários
+#### **Funcionalidade 3\. Solicitação de pré-matrícula**
+
+- **História 3.1:** Como responsável, quero, para um dependente, realizar a solicitação de matrícula para o ano letivo corrente  
+- **História 3.2:** Como responsável, quero realizar a pré-matrícula em etapas, de forma clara e objetiva  
+- **História 3.3:** Como responsável, quero poder escolher as opções de escola na pré-matrícula conhecendo as escolas disponíveis, de acordo com as informações fornecidas nas etapas anteriores
+
+### **Marco 6: Administração e consultas por secretários**
+
+04/05/2025 \- 10/05/2025 (1 semana)
 
 A administração e consultas vai possibilitar que secretários realizem a pré-matrícula para responsáveis impossibilitados de fazê-la de forma online, bem como busquem, de forma mais detalhadas, dados cadastrados no sistema
 
-#### Funcionalidade 1. Cadastro manual
+#### **Funcionalidade 1\. Cadastro manual**
 
-- História 1.1: Como secretário, quero cadastrar um responsável/dependente manualmente para casos de baixo letramento digital.
+- **História 1.1:** Como secretário, quero cadastrar um responsável/dependente manualmente para casos de baixo letramento digital.
 
-#### Funcionalidade 2. Solicitação de pré-matrícula
+#### **Funcionalidade 2\. Solicitação de pré-matrícula**
 
-- História 2.1: Como responsável, quero poder ir até uma secretaria de educação para realizar a pré-matrícula do(s) meu(s) dependentes
-- História 2.2: Como secretário, quero realizar pré-matrícula para um dependente específico
+- **História 2.1:** Como responsável, quero poder ir até uma secretaria de educação para realizar a pré-matrícula do(s) meu(s) dependente(s)  
+- **História 2.2:** Como secretário, quero realizar a pré-matrícula para um dependente específico, associado a um responsável cadastrado
 
-#### Funcionalidade 3. Realização de consultas
+#### **Funcionalidade 3\. Realização de consultas**
 
-História 3.1: Como secretário, quero realizar consultas nos dados de alunos, responsáveis e matrículas, podendo aplicar filtros a eles**
+- **História 3.1:** Como secretário, quero realizar consultas nos dados de alunos, responsáveis e matrículas, podendo aplicar filtros a eles
+
+### **Marco 7: Processamento e notificação**
+
+11/05/2025 \- 24/05/2025 (2 semanas)
+
+A realização do processamento das pré-matrículas e notificação dos resultados vai permitir que a alocação de estudantes aconteça de forma justa e estratégica, bem como tornar o processo transparente para os secretários e responsáveis
+
+#### **Funcionalidade 1\. Processamento das matrículas**
+
+- **História 1.1:** Como sistema, preciso processar todas as pré-matrículas utilizando o algoritmo genético para gerar uma alocação otimizada, de acordo com as informações das vagas nas escolas  
+- **História 1.2:** Como secretário, quero visualizar o status do processamento (em execução, concluído, falha) e logs de erros
+
+#### **Funcionalidade 2\. Ajustes de matrícula**
+
+- **História 2.1:** Como secretário, quero visualizar a lista de alocações propostas pelo algoritmo, com filtros por escola, turno ou dependente  
+- **História 2.2:** Como secretário, quero reatribuir manualmente um dependente para outra turma/escola, justificando a alteração  
+- **História 2.3:** Como sistema, preciso verificar se alterações feitas por um secretário não respeitam as priorizações do algoritmo e notificar
+
+#### **Funcionalidade 3\. Notificação de responsável**
+
+- **História 3.1:** Como sistema, devo enviar notificações automáticas aos responsáveis via e-mail, SMS ou plataforma, quando a matrícula for confirmada  
+- **História 3.2:** Como responsável, quero acessar um comprovante de pré-matrícula com detalhes da alocação (escola, turno, data) via plataforma
+
+### **Marco 8: Desenvolvimento e validação do algoritmo de Otimização**
+
+13/04/2025 \- 24/05/2025 (6 semanas)
+
+Marco referente ao planejamento, construção, análise e integração do algoritmo de otimização para alocação de matrículas. A ideia é que aconteça em paralelo (integrado) aos demais marcos.
+
+**Épicos:**
+
+- Definição dos critérios de otimização  
+- Estruturação e modelagem dos dados  
+- Prototipação do algoritmo  
+- análise dos resultados  
+- Algoritmo completo  
+- Validação dos resultados  
+- Integração com a API  
+- Testes
 
 
 # 7. Componentes
